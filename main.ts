@@ -874,7 +874,7 @@ function optimalParse(
           }
         };
         const maxLenAll = Math.min(258, n - i);
-        let maxChain = 64;
+        let maxChain = 512;
         let chain = 0;
         while (cand >= 0 && chain < maxChain) {
           const dist = i - cand;
